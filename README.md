@@ -1,24 +1,31 @@
-# Fakenews_prediction
-Algorithm:
+# 📰 Fake News Prediction using Machine Learning
 
-Random Forest Classifier
+This project focuses on detecting whether a news article is **fake or real** using **Natural Language Processing (NLP)** and **Machine Learning techniques**.  
+It was developed in **Google Colab** as part of my learning and internship work in **AI & ML**.
 
-Ensemble method combining multiple decision trees for improved accuracy.
+---
 
-Randomized Search CV: Hyperparameter tuning technique for optimal performance.
+## 📌 Project Overview
 
-TF-IDF Vectorization: Converts text data into numerical features for model input.
+- Preprocessed text data using **NLP techniques** (stopword removal, stemming, vectorization).  
+- Built and trained ML models such as **Logistic Regression** and **Naive Bayes**.  
+- Evaluated model accuracy, precision, and recall for fake news detection.  
+- Implemented in **Python (Jupyter Notebook / Google Colab)**.  
 
-Deployment:
+---
 
-Streamlined Deployment: Model trained and deployed for real-time prediction of news authenticity.
+## 🛠️ Tech Stack
 
-Scalability: Suitable for handling large volumes of news data efficiently
+- **Python**  
+- **Pandas, NumPy**  
+- **Scikit-learn** (ML models, evaluation)  
+- **NLTK** (text preprocessing)  
+- **Google Colab** (development environment)  
 
-References:
+---
 
-Dataset from Kaggle
+## 🚀 How to Run
 
-Python libraries such as Pandas and Scikit-learn models.
-
-
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/Meenakshi2705/Fakenews_prediction.git
